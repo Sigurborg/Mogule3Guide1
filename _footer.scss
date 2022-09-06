@@ -1,0 +1,24 @@
+/* Mixins for the Footer*/
+@mixin flexCenter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+$textColor: rgb(74, 62, 62);
+
+.footer {
+
+@include flexCenter;
+
+font-size: 1rem;
+color: $textColor;
+background-color: #6c6c6f;
+
+}
+
+
+
